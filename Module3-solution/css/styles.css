@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  /**color: #fff;*/
+ /** background-color: #61122f;**/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+ /** padding-top: 25px;*/ 	
+}
+.navbar-brand h1 { /* Restaurant name */
+  /*font-family: 'Lora', serif;*/
+  color: black;
+  font-size: 1.5em;
+ /** text-transform: uppercase;*/
+  /**font-weight: bold;*/
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: white;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: none;
+}
+#nav-list a span {
+  /*font-size: 1.8em;*/
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+h2, h4
+{
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+}
+
+
+.col-lg-12
+	{
+        position: relative;
+        float: left;
+        border: 1px solid black;
+        background-color: grey;
+        /*height: 300px;*/
+        overflow: hidden;
+        margin-right: 1.33%;
+        width: 100%;
+        
+    }
+
+    p
+{
+
+    width: 90%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black;
+}
+   
+
+/* END SINGLE CATEGORY PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  }
+ 
+ /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+  }
+
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  /* End Header */
+}
